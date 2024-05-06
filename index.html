@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- RemixIcon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- 
+      - Header
+     -->
+    <header class="header">
+      <div class="img-holder-header">
+        <img src="images/logo.svg" alt="image" class="header-img" />
+      </div>
+      <button class="try-btn">Try it free</button>
+    </header>
+
+    <!-- 
+      - Main
+     -->
+    <main class="main">
+      <!-- 
+        - Hero Section
+       -->
+      <section class="hero-section section">
+        <div class="top-hero">
+          <h1 class="hero-title">Build The Community Your Fans Will Love</h1>
+          <p class="hero-subtitle">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button class="hero-btn">Get Started For Free</button>
+        </div>
+        <div class="img-holder">
+          <img src="images/screen-mockups.svg" alt="image" class="hero-img" />
+        </div>
+        <div class="hero-wrapper">
+          <article class="hero-benefits">
+            <ul class="hero-list">
+              <li class="hero-item">
+                <div class="img-holder">
+                  <img
+                    src="images/icon-communities.svg"
+                    alt="image"
+                    class="hero-img-1"
+                  />
+                </div>
+                <h2 class="hero-num">1.4k+</h2>
+                <p class="hero-text">Communities Formed</p>
+              </li>
+              <li class="hero-item">
+                <div class="img-holder">
+                  <img
+                    src="images/icon-messages.svg"
+                    alt="image"
+                    class="hero-img-1"
+                  />
+                </div>
+                <h2 class="hero-num">2.7m+</h2>
+                <p class="hero-text">Messages Sent</p>
+              </li>
+            </ul>
+          </article>
+        </div>
+        <div class="img-holder" style="position: relative; width: 100%">
+          <img
+            src="images/bg-section-top-mobile-1.svg"
+            alt="image"
+            class="hero-abs-img"
+          />
+          <img
+            src="images/bg-section-top-desktop-1.svg"
+            alt="image"
+            class="hero-abs-img-desktop"
+          />
+        </div>
+      </section>
+
+      <!-- 
+        - Grow Section
+       -->
+      <section class="grow-section">
+        <div class="grow-container">
+          <div class="grow-info">
+            <h1 class="grow-title">Grow Together</h1>
+            <p class="grow-text">
+              Generate meaningful discussions with your audience and build a
+              strong, loyal community. Think of the insightful conversations you
+              miss out on with a feedback form.
+            </p>
+          </div>
+          <div class="img-holder">
+            <img
+              src="images/illustration-grow-together.svg"
+              alt="image"
+              class="grow-img"
+            />
+          </div>
+        </div>
+        <img
+          src="images/bg-section-bottom-mobile-1.svg"
+          alt="image"
+          class="grow-bottom-img-abs"
+        />
+        <img
+          src="images/bg-section-bottom-desktop-1.svg"
+          alt="image"
+          class="grow-botton-img-abs-desktop"
+        />
+      </section>
+
+      <!-- 
+        - Conversation Section
+       -->
+      <section class="conversation-section section">
+        <div class="conversation-container">
+          <div class="img-holder">
+            <img
+              src="images/illustration-flowing-conversation.svg"
+              alt="image"
+              class="conversation-img"
+            />
+          </div>
+          <div class="conversation-wrapper">
+            <h1 class="conversations-title">Flowing Conversations</h1>
+            <p class="conversations-text">
+              You wouldn't paginate a conversation in real life, so why do it
+              online? Our threads have just-in-time loading for a more natural
+              flow.
+            </p>
+          </div>
+        </div>
+        <div class="img-holder">
+          <img
+            src="images/bg-section-top-mobile-2.svg"
+            alt="image"
+            class="conversation-top-img-abs"
+          />
+          <img
+            src="images/bg-section-top-desktop-2.svg"
+            alt="image"
+            class="conversation-top-img-abs-desktop"
+          />
+        </div>
+      </section>
+
+      <!-- 
+        - Users Section
+       -->
+      <section class="users-section">
+        <div class="users-container">
+          <div class="users-info">
+            <h1 class="users-title">Your Users</h1>
+            <p class="users-text">
+              It takes no time at all to integrate Huddle with your app's
+              authentication solution. This means, once signed in to your app,
+              your users can start chatting immediately.
+            </p>
+          </div>
+
+          <div class="img-holder">
+            <img
+              src="images/illustration-your-users.svg"
+              alt="image"
+              class="users-img"
+            />
+          </div>
+        </div>
+        <img
+          src="images/bg-section-bottom-mobile-2.svg"
+          alt="image"
+          class="users-bottom-img-abs"
+        />
+        <img
+          src="images/bg-section-bottom-desktop-2.svg"
+          alt="image"
+          class="users-bottom-img-abs-desktop"
+        />
+      </section>
+
+      <!-- 
+        - Ready Section
+       -->
+      <section class="ready-section">
+        <div class="ready-container">
+          <h1 class="ready-title">Ready To Build Your Community?</h1>
+          <button class="ready-btn">Get Started For Free</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- 
+      - Footer
+     -->
+    <footer class="footer-section">
+      <img
+        src="images/bg-footer-top-mobile.svg"
+        alt="image"
+        class="footer-top-abs-img"
+      />
+      <img
+        src="images/bg-footer-top-desktop.svg"
+        alt="image"
+        class="footer-top-abs-img-desktop"
+      />
+      <div class="footer-container">
+        <div class="footer-top-container">
+          <h1 class="newsletter-title">Newsletter</h1>
+          <p class="newsletter-text">
+            To recieve tips on how to grow your community, sign up to our weekly
+            newsletter. We’ll never send you spam or pass on your email address
+          </p>
+          <div class="subscribe-container">
+            <div class="error-container">
+              <input
+                type="email"
+                name="usr-email"
+                id="email"
+                class="email-input"
+              />
+              <p class="email-error" id="error-text">Check your email please</p>
+            </div>
+            <button class="subscribe-btn" id="submit-btn">Subscribe</button>
+          </div>
+        </div>
+        <div class="footer-bottom-container">
+          <div class="logo-container">
+            <img
+              src="images/icon-messages.svg"
+              alt="image"
+              class="footer-logo-img"
+            />
+
+            <h1 class="footer-logo-title">Huddle</h1>
+          </div>
+          <p class="lorem-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+            nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
+          </p>
+
+          <ul class="contact-list">
+            <li class="contact-item">
+              <img
+                src="images/icon-phone.svg"
+                alt="image"
+                class="contact-img"
+              />
+              <p class="contact-info">Phone: +1-543-123-4567</p>
+            </li>
+
+            <li class="contact-item">
+              <img
+                src="images/icon-email.svg"
+                alt="image"
+                class="contact-img"
+              />
+              <p class="contact-info">example@huddle.com</p>
+            </li>
+          </ul>
+
+          <ul class="social-links">
+            <li class="social-link">
+              <i class="ri-facebook-box-line"></i>
+            </li>
+            <li class="social-link">
+              <i class="ri-instagram-line"></i>
+            </li>
+            <li class="social-link">
+              <i class="ri-twitter-line"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer-forced">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Muhammad Desai</a>.
+      </p>
+    </footer>
+  </body>
+</html>
